@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: csamp-tanzu-java-web-app
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"  
+  endpoint:
+    health:
+      show-details: always
+server:
+  port: {$PORT:8080}
