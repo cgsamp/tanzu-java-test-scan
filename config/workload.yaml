@@ -1,9 +1,10 @@
 apiVersion: carto.run/v1alpha1
 kind: Workload
 metadata:
-  name: csamp-tanzu-java-web-app
+  name: tanzu-java-test-scan
   labels:
     apps.tanzu.vmware.com/workload-type: web
+    apps.tanzu.vmware.com/has-tests: "true"
   annotations:
     autoscaling.knative.dev/minScale: "1"
 spec:

@@ -1,0 +1,53 @@
+# Maven build artifacts
+target/
+*.war
+*.ear
+*.jar
+
+# Spring Boot application logs
+logs/
+log/
+*.log
+
+# IDEs and editors
+/.classpath
+/.project
+/.settings/
+/.factorypath
+/.idea/
+*.iml
+*.iws
+*.bak
+*.swp
+*.swo
+*.tmp
+*.rej
+*.orig
+*.pyc
+*.cache
+.vscode/
+
+# macOS-specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows-specific files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Linux-specific files
+*~
+.Trash-*
+
+# Other
+*.class
+*.log
+*.sql
+*.sqlite
+
+# JUnit test reports
+TEST-*.xml
+
+# End of .gitignore
